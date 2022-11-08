@@ -1,0 +1,3 @@
+testusername friend finder true
+secondtest hill lake false
+anotherone skill kills true
