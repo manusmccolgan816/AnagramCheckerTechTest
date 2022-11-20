@@ -9,3 +9,5 @@ kelly grit girt true
 telma spare parse true
 man let wet false
 jj wet let false
+usethename yellow yellwo true
+namename god dog true

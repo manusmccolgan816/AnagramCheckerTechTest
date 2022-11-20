@@ -12,9 +12,10 @@ public class AnagramChecker {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        AnagramChecker anagramChecker = new AnagramChecker();
 
         do {
-            new AnagramChecker().inputEntry("src/main/resources/entries.txt");
+            anagramChecker.inputEntry("src/main/resources/entries.txt");
             System.out.print("Input n to add a new entry or another key to quit: ");
         } while (scanner.nextLine().equals("n"));
     }
