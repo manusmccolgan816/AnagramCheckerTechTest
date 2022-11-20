@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnagramCheckerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-11-08T09:52:11" hostname="DESKTOP-S86G168" time="0.096">
+<testsuite name="AnagramCheckerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-11-20T17:25:17" hostname="DESKTOP-S86G168" time="0.13">
   <properties/>
-  <testcase name="isValidInputFalseWithSomeNewLine()" classname="AnagramCheckerTest" time="0.022"/>
-  <testcase name="isValidInputTrueWithAllLetters()" classname="AnagramCheckerTest" time="0.002"/>
+  <testcase name="isValidInputFalseWithSomeNewLine()" classname="AnagramCheckerTest" time="0.027"/>
+  <testcase name="isValidInputTrueWithAllLetters()" classname="AnagramCheckerTest" time="0.001"/>
   <testcase name="isValidInputFalseWithNull()" classname="AnagramCheckerTest" time="0.001"/>
-  <testcase name="isValidInputFalseWithSomeSpecialChars()" classname="AnagramCheckerTest" time="0.0"/>
-  <testcase name="isAnagramFalseWithSameWords()" classname="AnagramCheckerTest" time="0.0"/>
+  <testcase name="isValidInputFalseWithSomeSpecialChars()" classname="AnagramCheckerTest" time="0.001"/>
+  <testcase name="isAnagramFalseWithSameWords()" classname="AnagramCheckerTest" time="0.001"/>
   <testcase name="isAnagramFalseWithNonAnagramWords()" classname="AnagramCheckerTest" time="0.0"/>
-  <testcase name="isAnagramTrueWithValidAnagram()" classname="AnagramCheckerTest" time="0.029"/>
-  <testcase name="readEntriesFromFileIncorrectlyUnsuccessful()" classname="AnagramCheckerTest" time="0.004"/>
+  <testcase name="isAnagramTrueWithValidAnagram()" classname="AnagramCheckerTest" time="0.038"/>
+  <testcase name="readEntriesFromFileIncorrectlyUnsuccessful()" classname="AnagramCheckerTest" time="0.011"/>
   <testcase name="isValidInputFalseWithSomeWhitespace()" classname="AnagramCheckerTest" time="0.001"/>
   <testcase name="isValidInputFalseWithSomeDigits()" classname="AnagramCheckerTest" time="0.001"/>
-  <testcase name="isValidInputFalseWithEmptyString()" classname="AnagramCheckerTest" time="0.0"/>
-  <testcase name="writeEntryToFileCorrectlySuccessful()" classname="AnagramCheckerTest" time="0.022"/>
+  <testcase name="isValidInputFalseWithEmptyString()" classname="AnagramCheckerTest" time="0.002"/>
+  <testcase name="writeEntryToFileCorrectlySuccessful()" classname="AnagramCheckerTest" time="0.03"/>
   <testcase name="writeEntryToFileIncorrectlyUnsuccessful()" classname="AnagramCheckerTest" time="0.004"/>
   <testcase name="readEntriesFromFileCorrectlySuccessful()" classname="AnagramCheckerTest" time="0.002"/>
   <system-out><![CDATA[Input invalid. Must not contain whitespace, digits or special characters.
@@ -22,15 +22,15 @@ Input invalid. Must not contain whitespace, digits or special characters.
 Input invalid. Must not contain whitespace, digits or special characters.
 Input invalid. Must not contain whitespace, digits or special characters.
 ]]></system-out>
-  <system-err><![CDATA[Nov 08, 2022 9:52:11 AM AnagramChecker isAnagram
+  <system-err><![CDATA[Nov 20, 2022 5:25:17 PM AnagramChecker isAnagram
 INFO: Input values not found in the cache. Running anagram checking algorithm.
-Nov 08, 2022 9:52:11 AM AnagramChecker readEntriesFromFile
+Nov 20, 2022 5:25:17 PM AnagramChecker readEntriesFromFile
 INFO: Entries read from file and stored in cache.
-Nov 08, 2022 9:52:11 AM AnagramChecker writeEntryToFile
+Nov 20, 2022 5:25:17 PM AnagramChecker writeEntryToFile
 INFO: Entry written to file.
-Nov 08, 2022 9:52:11 AM AnagramChecker writeEntryToFile
+Nov 20, 2022 5:25:17 PM AnagramChecker writeEntryToFile
 INFO: Entry written to file.
-Nov 08, 2022 9:52:11 AM AnagramChecker readEntriesFromFile
+Nov 20, 2022 5:25:17 PM AnagramChecker readEntriesFromFile
 INFO: Entries read from file and stored in cache.
 ]]></system-err>
 </testsuite>
